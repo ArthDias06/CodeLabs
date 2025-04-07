@@ -1,0 +1,27 @@
+h1{
+    color:aqua;
+    justify-self: center;
+    text-align: center;
+}
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+p{
+    border: 1px solid aqua;
+    text-align: center;
+}
+#carlos{
+    border: 3px solid black;
+    justify-self: center;
+    border-radius: 30px;
+    color: aqua;
+    padding: 10px;
+}
+
+@media (max-width: 400px) {
+    #container{
+        grid-template-columns: 1fr;
+    }
+}
